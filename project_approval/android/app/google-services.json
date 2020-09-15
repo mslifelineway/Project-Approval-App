@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "741868606608",
+    "firebase_url": "https://cits-project-approval-app.firebaseio.com",
+    "project_id": "cits-project-approval-app",
+    "storage_bucket": "cits-project-approval-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741868606608:android:46a0e1da079ef9c8ccf415",
+        "android_client_info": {
+          "package_name": "com.collegebuddy.project_approval"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741868606608-rnpfvjejajaaeumq2m7nhdbkc723eici.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAElTO3kqzae0Uz1ux4lI0m3mJzfS-Dt4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741868606608-rnpfvjejajaaeumq2m7nhdbkc723eici.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

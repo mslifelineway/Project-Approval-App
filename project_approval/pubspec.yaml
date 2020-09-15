@@ -1,0 +1,157 @@
+name: project_approval
+description: An flutter app for cits college for managin the project approval.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  flutter_svg: ^0.18.0
+  extended_math: ^0.0.29+1
+  firebase_auth: ^0.16.0
+  cloud_firestore: ^0.13.7
+  provider: ^4.3.2
+  rxdart:
+  flutter_spinkit: ^4.1.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/logo/
+    - assets/logo/log_out.svg
+    - assets/logo/services_icon.svg
+    - assets/logo/shapes_solid.svg
+    - assets/logo/draw_polygon_solid.svg
+    - assets/logo/creative_commons_share_brands.svg
+    - assets/logo/bookmark_solid.svg
+    - assets/logo/our-services.svg
+    - assets/logo/satisfaction.svg
+    - assets/logo/maintenance.svg
+    - assets/logo/group.svg
+    - assets/logo/project_status.svg
+    - assets/logo/home_icon.svg
+    - assets/logo/project.svg
+    - assets/logo/pending_project_icon.svg
+    - assets/logo/rejected_project_icon.svg
+    - assets/logo/approved_project_icon.svg
+    - assets/logo/view_files_icon.svg
+    - assets/logo/student.svg
+    - assets/logo/upload.svg
+    - assets/logo/phase_icon.svg
+    - assets/logo/superwiser.svg
+    - assets/logo/admin_icon.svg
+    - assets/logo/user.svg
+    - assets/logo/dotted_background.svg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Exo Black
+      fonts:
+        - asset: fonts/Exo2-Black.ttf
+    - family: Exo Bold
+      fonts:
+        - asset: fonts/Exo2-Bold.ttf
+    - family: Exo Extra Bold
+      fonts:
+        - asset: fonts/Exo2-ExtraBold.ttf
+    - family: RedRose Bold
+      fonts:
+        - asset: fonts/RedRose-Bold.ttf
+    - family: RedRose Light
+      fonts:
+        - asset: fonts/RedRose-Light.ttf
+    - family: RedRose Regular
+      fonts:
+        - asset: fonts/RedRose-Regular.ttf
+    - family: RussoOne Regular
+      fonts:
+        - asset: fonts/RussoOne-Regular.ttf
+    - family: SuezOne Regular
+      fonts:
+        - asset: fonts/SuezOne-Regular.ttf
+    - family: Raleway Black
+      fonts:
+        - asset: fonts/Raleway-Black.ttf
+    - family: Raleway Bold
+      fonts:
+        - asset: fonts/Raleway-Bold.ttf
+    - family: Raleway Extra Bold
+      fonts:
+        - asset: fonts/Raleway-ExtraBold.ttf
+    - family: Open Sans Light
+      fonts:
+        - asset: fonts/OpenSans-Light.ttf
+    - family: Open Sans Regular
+      fonts:
+        - asset: fonts/OpenSans-Regular.ttf
+    - family: Open Sans Bold
+      fonts:
+        - asset: fonts/OpenSans-Bold.ttf
+    - family: Open Sans Extra Bold
+      fonts:
+        - asset: fonts/OpenSans-ExtraBold.ttf
+    - family: Roboto Light
+      fonts:
+        - asset: fonts/Roboto-Light.ttf
+    - family: Roboto Bold
+      fonts:
+        - asset: fonts/Roboto-Bold.ttf
+    - family: Roboto Regular
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
